@@ -9,6 +9,7 @@ server.get('/', function(request, response){
 server.get('/signup', function(request, response){
   response.sendFile('public/html/signup.html', { root: __dirname });
 });
+
 server.get ('/login', function(request, response){
   response.sendFile('public/html/login.html', { root: __dirname });
 });
